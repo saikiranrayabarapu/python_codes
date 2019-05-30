@@ -1,0 +1,25 @@
+import turtle
+t=turtle.Turtle()
+t.color("red")
+for i in range(2):
+    t.circle(50)
+    t.circle(-50)
+    t.setheading(90)
+t.setheading(360)
+t.left(30)
+t.color("blue")
+for i in range(2):
+    t.circle(50)
+    t.circle(-50)
+    t.setheading(90)
+    t.left(30)
+t.setheading(360)
+t.left(60)
+t.color("green")
+for i in range(2):
+    t.circle(50)
+    t.circle(-50)
+    t.setheading(90)
+    t.left(60)
+t.hideturtle()
+turtle.done()
